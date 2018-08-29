@@ -35,8 +35,8 @@ func NewClient(csvWriter *csv.Writer) *Client {
 
 	return &Client{
 		client:       github.NewClient(nil),
-		clientID:     "e6bcf720314a21989e9b",
-		clientSecret: "9ed627c12d5bf597459c0b86154f7f7e52a37138",
+		clientID:     "",
+		clientSecret: "",
 		logWriter:    csvWriter,
 		api:          api,
 	}
